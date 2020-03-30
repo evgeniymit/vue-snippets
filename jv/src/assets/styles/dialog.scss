@@ -1,0 +1,13 @@
+@import './variables';
+
+.v-overlay--active .v-overlay__scrim {
+  opacity: 1 !important;
+  background-color: $dialog-backdrop !important;
+}
+
+.v-dialog {
+  box-shadow: 2px 2px 7px rgba(154, 171, 214, 0.25);
+  border-radius: 16px;
+  background: $white;
+  position: relative;
+}

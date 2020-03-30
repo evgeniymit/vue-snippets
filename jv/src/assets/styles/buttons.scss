@@ -1,0 +1,57 @@
+@import './variables';
+.disabled {
+  background-color: $gallery !important;
+  color: $silver !important;
+}
+
+button.rc {
+  border-radius: 8px;
+  padding: 10px 5px;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  &.primary {
+    background-color: $primary !important;
+    color: white;
+    &[disabled] {
+      @extend .disabled;
+    }
+    &:active {
+      background-color: darken($primary, 10%) !important;
+    }
+  }
+  &.malibu {
+    background-color: $malibu;
+    color: white;
+    &[disabled] {
+      @extend .disabled;
+    }
+    &:active {
+      background-color: darken($malibu, 10%);
+    }
+  }
+  &.grey {
+    background-color: $gallery !important;
+    color: $black;
+    &[disabled] {
+      @extend .disabled;
+    }
+    &:active {
+      background-color: darken($gallery, 10%) !important;
+    }
+  }
+  &.danger {
+    background-color: $geraldine !important;
+    color: $white;
+    &[disabled] {
+      @extend .disabled;
+    }
+    &:active {
+      background-color: darken($geraldine, 10%) !important;
+    }
+  }
+
+  &.small {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

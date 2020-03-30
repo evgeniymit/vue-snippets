@@ -1,0 +1,45 @@
+@import "./variables";
+
+.rc-heading-2-text {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.rc-heading-3-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.15rem;
+}
+
+.rc-basic-text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.rc-message-text {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}
+
+.rc-system-text {
+  font-weight: 500;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+}
+
+.rc-table-text {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.rc-text-green {
+  color: $algae-green;
+}
+
+.rc-text-red {
+  color: $geraldine;
+}

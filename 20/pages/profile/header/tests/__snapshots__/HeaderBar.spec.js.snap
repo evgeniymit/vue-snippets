@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderBar the candidate is contacted by current user the contact button should be disabled 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container" name="fade" mode="out-in"><a class="button is-default-icon is-default-icon-row is-primary unlock-cv"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill" style="width: 16px; height: 16px;">
+                <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g fill="none" fill-rule="evenodd">
+                    <path fill="#FFF" d="M7 9h2v4a1 1 0 0 1-2 0V9z"></path>
+                    <rect pid="0" width="3" height="3" x="6.5" y="8" fill="#FFF" rx="1.5"></rect>
+                    <rect pid="1" width="8" height="10" x="4" y="1" stroke="#F05424" stroke-width="2" rx="4"></rect>
+                    <path class="fill-secondary" fill-rule="nonzero" d="M3 7h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="is-default-icon-item btn-title" data-msgid="
+          Unlock CV
+        " data-current-language="en_US">
+                Unlock CV
+              </div>
+            </a></div>
+        </div>
+        <div class="flex-bar-btn-item contact tooltip-container is-pulled-right-flex"><span data-label="" class="is-primary is-top is-medium"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 10" class="orange-icon svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="fill" pid="0" d="M8 10c-2.946 0-5.612-1.667-8-5 2.388-3.333 5.054-5 8-5 2.946 0 5.612 1.667 8 5-2.388 3.333-5.054 5-8 5zm0-1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></g></svg> <div class="is-default-icon-item btn-title">Contacted</div></a></span></div>
+        <save-candidate-button-container-stub candidate="[object Object]"></save-candidate-button-container-stub>
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;
+
+exports[`HeaderBar the candidate is in in unavailableContactedState the contact button should be disabled 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container" name="fade" mode="out-in"><a class="button is-default-icon is-default-icon-row is-primary unlock-cv"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill" style="width: 16px; height: 16px;">
+                <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g fill="none" fill-rule="evenodd">
+                    <path fill="#FFF" d="M7 9h2v4a1 1 0 0 1-2 0V9z"></path>
+                    <rect pid="0" width="3" height="3" x="6.5" y="8" fill="#FFF" rx="1.5"></rect>
+                    <rect pid="1" width="8" height="10" x="4" y="1" stroke="#F05424" stroke-width="2" rx="4"></rect>
+                    <path class="fill-secondary" fill-rule="nonzero" d="M3 7h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="is-default-icon-item btn-title" data-msgid="
+          Unlock CV
+        " data-current-language="en_US">
+                Unlock CV
+              </div>
+            </a></div>
+        </div>
+        <div class="flex-bar-btn-item contact tooltip-container is-pulled-right-flex"><span data-label="Already added to a project by Cool HR" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 10" class="orange-icon svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="fill" pid="0" d="M8 10c-2.946 0-5.612-1.667-8-5 2.388-3.333 5.054-5 8-5 2.946 0 5.612 1.667 8 5-2.388 3.333-5.054 5-8 5zm0-1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></g></svg> <div class="is-default-icon-item btn-title">Contacted</div></a></span></div>
+        <save-candidate-button-container-stub candidate="[object Object]"></save-candidate-button-container-stub>
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub candidateid="candidate_id" modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;
+
+exports[`HeaderBar the candidate is in in unavailableSavedState the contact button should be disabled 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container" name="fade" mode="out-in"><a class="button is-default-icon is-default-icon-row is-primary unlock-cv"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill" style="width: 16px; height: 16px;">
+                <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g fill="none" fill-rule="evenodd">
+                    <path fill="#FFF" d="M7 9h2v4a1 1 0 0 1-2 0V9z"></path>
+                    <rect pid="0" width="3" height="3" x="6.5" y="8" fill="#FFF" rx="1.5"></rect>
+                    <rect pid="1" width="8" height="10" x="4" y="1" stroke="#F05424" stroke-width="2" rx="4"></rect>
+                    <path class="fill-secondary" fill-rule="nonzero" d="M3 7h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="is-default-icon-item btn-title" data-msgid="
+          Unlock CV
+        " data-current-language="en_US">
+                Unlock CV
+              </div>
+            </a></div>
+        </div>
+        <div class="flex-bar-btn-item contact tooltip-container is-pulled-right-flex"><span data-label="Already added to a project by Cool HR" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 10" class="orange-icon svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="fill" pid="0" d="M8 10c-2.946 0-5.612-1.667-8-5 2.388-3.333 5.054-5 8-5 2.946 0 5.612 1.667 8 5-2.388 3.333-5.054 5-8 5zm0-1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></g></svg> <div class="is-default-icon-item btn-title">Contacted</div></a></span></div>
+        <save-candidate-button-container-stub candidate="[object Object]"></save-candidate-button-container-stub>
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub candidateid="candidate_id" modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;
+
+exports[`HeaderBar the candidate is not contacted by current user the contact button should be enabled 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container" name="fade" mode="out-in"><a class="button is-default-icon is-default-icon-row is-primary unlock-cv"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill" style="width: 16px; height: 16px;">
+                <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g fill="none" fill-rule="evenodd">
+                    <path fill="#FFF" d="M7 9h2v4a1 1 0 0 1-2 0V9z"></path>
+                    <rect pid="0" width="3" height="3" x="6.5" y="8" fill="#FFF" rx="1.5"></rect>
+                    <rect pid="1" width="8" height="10" x="4" y="1" stroke="#F05424" stroke-width="2" rx="4"></rect>
+                    <path class="fill-secondary" fill-rule="nonzero" d="M3 7h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="is-default-icon-item btn-title" data-msgid="
+          Unlock CV
+        " data-current-language="en_US">
+                Unlock CV
+              </div>
+            </a></div>
+        </div>
+        <div class="flex-bar-btn-item contact tooltip-container is-pulled-right-flex"><span data-label="Book an interview with this candidate" class="is-primary is-top is-medium tooltip"><a class="button is-default-icon is-default-icon-row"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 10" class="orange-icon svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="fill" pid="0" d="M8 10c-2.946 0-5.612-1.667-8-5 2.388-3.333 5.054-5 8-5 2.946 0 5.612 1.667 8 5-2.388 3.333-5.054 5-8 5zm0-1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></g></svg> <div class="is-default-icon-item btn-title">Interested</div></a></span></div>
+        <save-candidate-button-container-stub candidate="[object Object]"></save-candidate-button-container-stub>
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;
+
+exports[`HeaderBar the candidate is pipeliner the contact button should be not visible 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container" name="fade" mode="out-in"><span data-label="Download this candidate's CV" class="is-primary is-top is-medium tooltip"><a href="url" target="_blank" class="button is-default-icon is-default-icon-row is-primary download"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g class="stroke fill" fill-rule="evenodd"><path pid="0" d="M1.5 1.5v13a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-13a1 1 0 0 0-1-1h-11a1 1 0 0 0-1 1z"></path><path pid="1" d="M4 12h4M4 4h8M4 8h8" stroke-width="2"></path></g></g></svg> <div class="is-default-icon-item btn-title" data-msgid="
+            Download CV
+          " data-current-language="en_US">
+            Download CV
+          </div></a></span></div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;
+
+exports[`HeaderBar the user account is not approved the contact button should be disabled 1`] = `
+<div class="header-bar">
+  <div class="max-width-container">
+    <div class="header-content columns">
+      <div class="flex-bar-item candidate-position column is-paddingless is-narrow">
+        <h2 class="heading-2"><span class="is-capitalized"></span>
+          <candidate-badges-container-stub candidate="[object Object]"></candidate-badges-container-stub>
+        </h2>
+      </div>
+      <div class="flex-bar-item flex-bar-btn-row header-buttons column">
+        <div class="is-pulled-right-flex">
+          <div class="flex-bar-btn-item tooltip-container"><span data-label="As soon as we approve your account, you'll be able to unlock CVs" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M7 9h2v4a1 1 0 0 1-2 0V9z"></path>
+        <rect pid="0" width="3" height="3" x="6.5" y="8" fill="#FFF" rx="1.5"></rect>
+        <rect pid="1" width="8" height="10" x="4" y="1" stroke="#F05424" stroke-width="2" rx="4"></rect>
+        <path class="fill-secondary" fill-rule="nonzero" d="M3 7h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"></path>
+    </g></g></svg> <div class="is-default-icon-item btn-title" data-msgid="Unlock CV" data-current-language="en_US">Unlock CV</div></a></span></div>
+        </div>
+        <div class="flex-bar-btn-item contact tooltip-container is-pulled-right-flex"><span data-label="As soon as we approve your account you'll be able to contact candidates" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 10" class="orange-icon svg-icon svg-fill" style="width: 16px; height: 16px;"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="fill" pid="0" d="M8 10c-2.946 0-5.612-1.667-8-5 2.388-3.333 5.054-5 8-5 2.946 0 5.612 1.667 8 5-2.388 3.333-5.054 5-8 5zm0-1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill-rule="evenodd"></path></g></svg> <div class="is-default-icon-item btn-title">Contacted</div></a></span></div>
+        <save-candidate-button-container-stub candidate="[object Object]"></save-candidate-button-container-stub>
+      </div>
+    </div>
+    <div class="location-salary-icons-bar flex-bar">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <div class="date-updated date-along">
+      <p class="nowrap paragraph-s">
+        Updated a few seconds ago
+      </p>
+    </div>
+  </div>
+  <interested-popup-container-stub modalname="interested-popup" conditionalfields="true"></interested-popup-container-stub>
+</div>
+`;

@@ -1,0 +1,54 @@
+@import './variables';
+@import './typography';
+@import './helpers';
+@import './buttons';
+@import './dialog.scss';
+@import './scrollbars.scss';
+
+html {
+  font-size: 16px;
+  color: $mine-shaft;
+}
+
+
+.rank-club-app {
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rc-popup-box {
+  position: absolute;
+  top: 50px;
+  border: 1px solid $cornflower-blue-15;
+  box-shadow: 2px 2px 7px $polo-blue-25;
+  border-radius: 4px;
+  padding: 20px 8px;
+  width: 140px;
+  background: $white;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: calc(50% - 6px);
+    transform: rotate(45deg);
+    border-left: 1px solid $cornflower-blue-15;
+    border-top: 1px solid $cornflower-blue-15;
+    width: 10px;
+    height: 10px;
+    background: white;
+  }
+}
+
+p.rc-error {
+  color: $error-text;
+}

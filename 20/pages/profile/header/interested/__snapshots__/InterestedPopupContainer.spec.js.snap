@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InterestedPopupContainer initial state (purpose === interest) with preselected project 1`] = `
+<div class="mocked-modal" pivoty="0.07" width="510" name="interested-popup" height="auto">
+  <div class="interested-popup-container">
+    <h3 class="heading-3" data-msgid="Contact request sent." data-current-language="en_US">Contact request sent.</h3>
+    <div class="contact-description">
+      <div class="paragraph-m paragraph-highlighted">
+        <div class="highlight-border" style="width: 2px;"></div>
+        <div class="text-highlighted">
+          Your Relationship Manager will reach out to this candidate to verify their interest in your company.
+        </div>
+      </div>
+      <div class="description" data-msgid="
+    If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+  " data-current-language="en_US">
+        If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+      </div>
+    </div>
+    <div class="project-select-field">
+      <div class="field"><label class="label">Project</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">test</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: block;">
+              <!---->
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="purpose-select-field">
+      <div class="field"><label class="label">Purpose</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Check candidate's interest</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: inline-block;">
+              <!---->
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option multiselect__option--highlight">
+
+              <span>Get more information about candidate</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule a phone screen</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule an interview</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Other</span></span>
+                <!---->
+              </li>
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="field"><label class="label">Message</label>
+      <div class="control text-area is-clearfix"><textarea name="message" class="textarea"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div class="field phone" style="display: none;"><label class="label">Phone</label>
+      <div class=""><input type="text" autocomplete="on" name="phone_number" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box" style="display: none;">
+      <div class="field date"><label class="label">Interview Date</label>
+        <div class="mocked-datepicker-input" min-date="1" dateformatter="function () { [native code] }" max-date="2" placeholder="Interview Date" daynames="Su,M,Tu,W,Th,F,S" monthnames="January,February,March,April,May,June,July,August,September,October,November,December" position="is-top-right" name="date"></div>
+        <!---->
+      </div>
+      <div class="field time"><label class="label">Time</label> <span class="time-picker"><div><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle class="fill" cx="8" cy="8" r="8"></circle>
+        <path class="stroke" stroke-linecap="round" stroke-linejoin="round" d="M7.5 4.5v5l3-2.318"></path>
+    </g></g></svg> <input type="text" readonly="readonly" class="display-time"></div> <!----> <!----> <div class="dropdown" style="display: none;"><div class="select-list"><ul class="hours"><li class="hint">HH</li> </ul> <ul class="minutes"><li class="hint">mm</li> </ul> <!----> <!----></div></div></span>
+        <!---->
+      </div>
+    </div>
+    <div class="field" style="display: none;"><label class="label">Address</label>
+      <div class=""><input type="text" autocomplete="on" name="interview_address" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box controls"><button class="button is-accent-default"><span>Update Request</span></button> <button class="button is-accent-ghost is-pulled-right-flex" data-msgid="Close" data-current-language="en_US">Close</button></div>
+  </div>
+</div>
+`;
+
+exports[`InterestedPopupContainer purpose === info 1`] = `
+<div class="mocked-modal" pivoty="0.07" width="510" name="interested-popup" height="auto">
+  <div class="interested-popup-container">
+    <h3 class="heading-3" data-msgid="Contact request sent." data-current-language="en_US">Contact request sent.</h3>
+    <div class="contact-description">
+      <div class="paragraph-m paragraph-highlighted">
+        <div class="highlight-border" style="width: 2px;"></div>
+        <div class="text-highlighted">
+          Your Relationship Manager will reach out to this candidate to get more information.
+        </div>
+      </div>
+      <div class="description" data-msgid="
+    If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+  " data-current-language="en_US">
+        If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+      </div>
+    </div>
+    <div class="project-select-field">
+      <div class="field"><label class="label">Project</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Select a project</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: block;">
+              <!---->
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="purpose-select-field">
+      <div class="field"><label class="label">Purpose</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Get more information about candidate</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: inline-block;">
+              <!---->
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option multiselect__option--highlight">
+
+              <span>Check candidate's interest</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule a phone screen</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule an interview</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Other</span></span>
+                <!---->
+              </li>
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="field"><label class="label">Message</label>
+      <div class="control text-area is-clearfix"><textarea name="message" class="textarea"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div class="field phone" style="display: none;"><label class="label">Phone</label>
+      <div class=""><input type="text" autocomplete="on" name="phone_number" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box" style="display: none;">
+      <div class="field date"><label class="label">Interview Date</label>
+        <div class="mocked-datepicker-input" min-date="1" dateformatter="function () { [native code] }" max-date="2" placeholder="Interview Date" daynames="Su,M,Tu,W,Th,F,S" monthnames="January,February,March,April,May,June,July,August,September,October,November,December" position="is-top-right" name="date"></div>
+        <!---->
+      </div>
+      <div class="field time"><label class="label">Time</label> <span class="time-picker"><div><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle class="fill" cx="8" cy="8" r="8"></circle>
+        <path class="stroke" stroke-linecap="round" stroke-linejoin="round" d="M7.5 4.5v5l3-2.318"></path>
+    </g></g></svg> <input type="text" readonly="readonly" class="display-time"></div> <!----> <!----> <div class="dropdown" style="display: none;"><div class="select-list"><ul class="hours"><li class="hint">HH</li> <li class="active">00</li><li class="">01</li><li class="">02</li><li class="">03</li><li class="">04</li><li class="">05</li><li class="">06</li><li class="">07</li><li class="">08</li><li class="">09</li><li class="">10</li><li class="">11</li><li class="">12</li><li class="">13</li><li class="">14</li><li class="">15</li><li class="">16</li><li class="">17</li><li class="">18</li><li class="">19</li><li class="">20</li><li class="">21</li><li class="">22</li><li class="">23</li></ul> <ul class="minutes"><li class="hint">mm</li> <li class="active">00</li><li class="">05</li><li class="">10</li><li class="">15</li><li class="">20</li><li class="">25</li><li class="">30</li><li class="">35</li><li class="">40</li><li class="">45</li><li class="">50</li><li class="">55</li></ul> <!----> <!----></div></div></span>
+        <!---->
+      </div>
+    </div>
+    <div class="field" style="display: none;"><label class="label">Address</label>
+      <div class=""><input type="text" autocomplete="on" name="interview_address" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box controls"><button class="button is-accent-default"><span>Update Request</span></button> <button class="button is-accent-ghost is-pulled-right-flex" data-msgid="Close" data-current-language="en_US">Close</button></div>
+  </div>
+</div>
+`;
+
+exports[`InterestedPopupContainer purpose === interview 1`] = `
+<div class="mocked-modal" pivoty="0.07" width="510" name="interested-popup" height="auto">
+  <div class="interested-popup-container">
+    <h3 class="heading-3" data-msgid="Contact request sent." data-current-language="en_US">Contact request sent.</h3>
+    <div class="contact-description">
+      <div class="paragraph-m paragraph-highlighted">
+        <div class="highlight-border" style="width: 2px;"></div>
+        <div class="text-highlighted">
+          Your Relationship Manager will reach out to this candidate to schedule an interview.
+        </div>
+      </div>
+      <div class="description" data-msgid="
+    If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+  " data-current-language="en_US">
+        If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+      </div>
+    </div>
+    <div class="project-select-field">
+      <div class="field"><label class="label">Project</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Select a project</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: block;">
+              <!---->
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="purpose-select-field">
+      <div class="field"><label class="label">Purpose</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Schedule an interview</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: inline-block;">
+              <!---->
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option multiselect__option--highlight">
+
+              <span>Check candidate's interest</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Get more information about candidate</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule a phone screen</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Other</span></span>
+                <!---->
+              </li>
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="field"><label class="label">Message</label>
+      <div class="control text-area is-clearfix"><textarea name="message" class="textarea"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div class="field phone" style=""><label class="label">Phone</label>
+      <div class=""><input type="text" autocomplete="on" name="phone_number" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box" style="">
+      <div class="field date"><label class="label">Interview Date</label>
+        <div class="mocked-datepicker-input" min-date="1" dateformatter="function () { [native code] }" max-date="2" placeholder="Interview Date" daynames="Su,M,Tu,W,Th,F,S" monthnames="January,February,March,April,May,June,July,August,September,October,November,December" position="is-top-right" name="date"></div>
+        <!---->
+      </div>
+      <div class="field time"><label class="label">Time</label> <span class="time-picker"><div><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle class="fill" cx="8" cy="8" r="8"></circle>
+        <path class="stroke" stroke-linecap="round" stroke-linejoin="round" d="M7.5 4.5v5l3-2.318"></path>
+    </g></g></svg> <input type="text" readonly="readonly" class="display-time"></div> <!----> <!----> <div class="dropdown" style="display: none;"><div class="select-list"><ul class="hours"><li class="hint">HH</li> <li class="active">00</li><li class="">01</li><li class="">02</li><li class="">03</li><li class="">04</li><li class="">05</li><li class="">06</li><li class="">07</li><li class="">08</li><li class="">09</li><li class="">10</li><li class="">11</li><li class="">12</li><li class="">13</li><li class="">14</li><li class="">15</li><li class="">16</li><li class="">17</li><li class="">18</li><li class="">19</li><li class="">20</li><li class="">21</li><li class="">22</li><li class="">23</li></ul> <ul class="minutes"><li class="hint">mm</li> <li class="active">00</li><li class="">05</li><li class="">10</li><li class="">15</li><li class="">20</li><li class="">25</li><li class="">30</li><li class="">35</li><li class="">40</li><li class="">45</li><li class="">50</li><li class="">55</li></ul> <!----> <!----></div></div></span>
+        <!---->
+      </div>
+    </div>
+    <div class="field" style=""><label class="label">Address</label>
+      <div class=""><input type="text" autocomplete="on" name="interview_address" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box controls"><button class="button is-accent-default"><span>Update Request</span></button> <button class="button is-accent-ghost is-pulled-right-flex" data-msgid="Close" data-current-language="en_US">Close</button></div>
+  </div>
+</div>
+`;
+
+exports[`InterestedPopupContainer purpose === other 1`] = `
+<div class="mocked-modal" pivoty="0.07" width="510" name="interested-popup" height="auto">
+  <div class="interested-popup-container">
+    <h3 class="heading-3" data-msgid="Contact request sent." data-current-language="en_US">Contact request sent.</h3>
+    <div class="contact-description">
+      <div class="paragraph-m paragraph-highlighted">
+        <div class="highlight-border" style="width: 2px;"></div>
+        <div class="text-highlighted">
+          Your Relationship Manager will reach out to this candidate.
+        </div>
+      </div>
+      <div class="description" data-msgid="
+    If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+  " data-current-language="en_US">
+        If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+      </div>
+    </div>
+    <div class="project-select-field">
+      <div class="field"><label class="label">Project</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Select a project</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: block;">
+              <!---->
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="purpose-select-field">
+      <div class="field"><label class="label">Purpose</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Other</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: inline-block;">
+              <!---->
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option multiselect__option--highlight">
+
+              <span>Check candidate's interest</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Get more information about candidate</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule a phone screen</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule an interview</span></span>
+                <!---->
+              </li>
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="field"><label class="label">Message</label>
+      <div class="control text-area is-clearfix"><textarea name="message" class="textarea"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div class="field phone" style="display: none;"><label class="label">Phone</label>
+      <div class=""><input type="text" autocomplete="on" name="phone_number" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box" style="display: none;">
+      <div class="field date"><label class="label">Interview Date</label>
+        <div class="mocked-datepicker-input" min-date="1" dateformatter="function () { [native code] }" max-date="2" placeholder="Interview Date" daynames="Su,M,Tu,W,Th,F,S" monthnames="January,February,March,April,May,June,July,August,September,October,November,December" position="is-top-right" name="date"></div>
+        <!---->
+      </div>
+      <div class="field time"><label class="label">Time</label> <span class="time-picker"><div><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle class="fill" cx="8" cy="8" r="8"></circle>
+        <path class="stroke" stroke-linecap="round" stroke-linejoin="round" d="M7.5 4.5v5l3-2.318"></path>
+    </g></g></svg> <input type="text" readonly="readonly" class="display-time"></div> <!----> <!----> <div class="dropdown" style="display: none;"><div class="select-list"><ul class="hours"><li class="hint">HH</li> <li class="active">00</li><li class="">01</li><li class="">02</li><li class="">03</li><li class="">04</li><li class="">05</li><li class="">06</li><li class="">07</li><li class="">08</li><li class="">09</li><li class="">10</li><li class="">11</li><li class="">12</li><li class="">13</li><li class="">14</li><li class="">15</li><li class="">16</li><li class="">17</li><li class="">18</li><li class="">19</li><li class="">20</li><li class="">21</li><li class="">22</li><li class="">23</li></ul> <ul class="minutes"><li class="hint">mm</li> <li class="active">00</li><li class="">05</li><li class="">10</li><li class="">15</li><li class="">20</li><li class="">25</li><li class="">30</li><li class="">35</li><li class="">40</li><li class="">45</li><li class="">50</li><li class="">55</li></ul> <!----> <!----></div></div></span>
+        <!---->
+      </div>
+    </div>
+    <div class="field" style="display: none;"><label class="label">Address</label>
+      <div class=""><input type="text" autocomplete="on" name="interview_address" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box controls"><button class="button is-accent-default"><span>Update Request</span></button> <button class="button is-accent-ghost is-pulled-right-flex" data-msgid="Close" data-current-language="en_US">Close</button></div>
+  </div>
+</div>
+`;
+
+exports[`InterestedPopupContainer purpose === phone 1`] = `
+<div class="mocked-modal" pivoty="0.07" width="510" name="interested-popup" height="auto">
+  <div class="interested-popup-container">
+    <h3 class="heading-3" data-msgid="Contact request sent." data-current-language="en_US">Contact request sent.</h3>
+    <div class="contact-description">
+      <div class="paragraph-m paragraph-highlighted">
+        <div class="highlight-border" style="width: 2px;"></div>
+        <div class="text-highlighted">
+          Your Relationship Manager will reach out to this candidate to schedule a phone screen.
+        </div>
+      </div>
+      <div class="description" data-msgid="
+    If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+  " data-current-language="en_US">
+        If you want to schedule an interview directly, or find out more information about this candidate, use the form below.
+      </div>
+    </div>
+    <div class="project-select-field">
+      <div class="field"><label class="label">Project</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Select a project</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: block;">
+              <!---->
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="purpose-select-field">
+      <div class="field"><label class="label">Purpose</label>
+        <div tabindex="0" class="multiselect multiselect--fixed">
+          <div class="multiselect__select"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 12 12" class="svg-icon svg-fill" style="width: 11px; height: 11px;">
+              <g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" class="stroke" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M1 4l5 4 5-4"></path>
+              </g>
+            </svg></div>
+          <div class="multiselect__tags">
+            <div class="multiselect__tags-wrap" style="display: none;"></div>
+            <!---->
+            <div class="multiselect__spinner" style="display: none;" name="multiselect__loading"></div>
+            <!----> <span class="multiselect__single">Schedule a phone screen</span>
+          </div>
+          <div class="multiselect__content-wrapper" style="max-height: 300px; display: none;" name="multiselect">
+            <ul class="multiselect__content" style="display: inline-block;">
+              <!---->
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option multiselect__option--highlight">
+
+              <span>Check candidate's interest</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Get more information about candidate</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Schedule an interview</span></span>
+                <!---->
+              </li>
+              <li class="multiselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Press enter to remove" class="multiselect__option">
+
+              <span>Other</span></span>
+                <!---->
+              </li>
+              <li style="display: none;"><span class="multiselect__option"><span class="not-found-results" data-msgid="No elements found. Consider changing the search query." data-current-language="en_US">No elements found. Consider changing the search query.</span></span></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <div class="field"><label class="label">Message</label>
+      <div class="control text-area is-clearfix"><textarea name="message" class="textarea"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <div class="field phone" style=""><label class="label">Phone</label>
+      <div class=""><input type="text" autocomplete="on" name="phone_number" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box" style="">
+      <div class="field date"><label class="label">Interview Date</label>
+        <div class="mocked-datepicker-input" min-date="1" dateformatter="function () { [native code] }" max-date="2" placeholder="Interview Date" daynames="Su,M,Tu,W,Th,F,S" monthnames="January,February,March,April,May,June,July,August,September,October,November,December" position="is-top-right" name="date"></div>
+        <!---->
+      </div>
+      <div class="field time"><label class="label">Time</label> <span class="time-picker"><div><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none" fill-rule="evenodd" opacity=".8">
+        <circle class="fill" cx="8" cy="8" r="8"></circle>
+        <path class="stroke" stroke-linecap="round" stroke-linejoin="round" d="M7.5 4.5v5l3-2.318"></path>
+    </g></g></svg> <input type="text" readonly="readonly" class="display-time"></div> <!----> <!----> <div class="dropdown" style="display: none;"><div class="select-list"><ul class="hours"><li class="hint">HH</li> <li class="active">00</li><li class="">01</li><li class="">02</li><li class="">03</li><li class="">04</li><li class="">05</li><li class="">06</li><li class="">07</li><li class="">08</li><li class="">09</li><li class="">10</li><li class="">11</li><li class="">12</li><li class="">13</li><li class="">14</li><li class="">15</li><li class="">16</li><li class="">17</li><li class="">18</li><li class="">19</li><li class="">20</li><li class="">21</li><li class="">22</li><li class="">23</li></ul> <ul class="minutes"><li class="hint">mm</li> <li class="active">00</li><li class="">05</li><li class="">10</li><li class="">15</li><li class="">20</li><li class="">25</li><li class="">30</li><li class="">35</li><li class="">40</li><li class="">45</li><li class="">50</li><li class="">55</li></ul> <!----> <!----></div></div></span>
+        <!---->
+      </div>
+    </div>
+    <div class="field" style="display: none;"><label class="label">Address</label>
+      <div class=""><input type="text" autocomplete="on" name="interview_address" class="input"> <svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill"></svg></div>
+      <!---->
+    </div>
+    <div class="flex-box controls"><button class="button is-accent-default"><span>Update Request</span></button> <button class="button is-accent-ghost is-pulled-right-flex" data-msgid="Close" data-current-language="en_US">Close</button></div>
+  </div>
+</div>
+`;

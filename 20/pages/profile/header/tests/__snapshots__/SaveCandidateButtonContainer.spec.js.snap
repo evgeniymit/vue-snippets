@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaveCandidateButtonContainer candidate is contacted by current user the save button should be disabled 1`] = `
+<div class="candidate-header-secondary-flex-item">
+  <div id="saveCandidateBtn" class="flex-bar-btn-item save"><span data-label="You've already added this candidate to a project" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><div class="is-default-icon-item icon-btn-item save-icon"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="saved-icon svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" d="M8 13.267L3.056 16 4 10.211l-4-4.1 5.528-.844L8 0l2.472 5.267L16 6.11l-4 4.1.944 5.789z"></path></g></svg></div> <div class="is-default-icon-item btn-title" data-msgid="Saved" data-current-language="en_US">Saved</div></a></span></div>
+</div>
+`;
+
+exports[`SaveCandidateButtonContainer candidate is in contactedToAccountActiveProjectsByCandidateIdState (contacted by any user) the save button should be disabled 1`] = `
+<div class="candidate-header-secondary-flex-item">
+  <div id="saveCandidateBtn" class="flex-bar-btn-item save"><span data-label="Already added to a project by Maymay" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><div class="is-default-icon-item icon-btn-item save-icon"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="saved-icon svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" d="M8 13.267L3.056 16 4 10.211l-4-4.1 5.528-.844L8 0l2.472 5.267L16 6.11l-4 4.1.944 5.789z"></path></g></svg></div> <div class="is-default-icon-item btn-title" data-msgid="Saved" data-current-language="en_US">Saved</div></a></span></div>
+</div>
+`;
+
+exports[`SaveCandidateButtonContainer candidate is in unavailableSavedState (saved by other user) the save button should be disabled 1`] = `
+<div class="candidate-header-secondary-flex-item">
+  <div id="saveCandidateBtn" class="flex-bar-btn-item save"><span data-label="Already added to a project by Maymay" class="is-primary is-top is-medium tooltip"><a disabled="disabled" class="button is-default-icon is-default-icon-row is-primary"><div class="is-default-icon-item icon-btn-item save-icon"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="saved-icon svg-icon svg-fill"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" d="M8 13.267L3.056 16 4 10.211l-4-4.1 5.528-.844L8 0l2.472 5.267L16 6.11l-4 4.1.944 5.789z"></path></g></svg></div> <div class="is-default-icon-item btn-title" data-msgid="Saved" data-current-language="en_US">Saved</div></a></span></div>
+</div>
+`;
+
+exports[`SaveCandidateButtonContainer candidate is not saved or contacted by anyone the save button should be enabled 1`] = `
+<div class="candidate-header-secondary-flex-item">
+  <div class="v-popover"><span aria-describedby="popover_" tabindex="-1" class="trigger" style="display: inline-block;"><div><div id="saveCandidateBtn" class="flex-bar-btn-item save"><span data-label="Save this candidate" class="is-primary is-top is-medium tooltip"><a class="button is-default-icon is-default-icon-row"><div class="is-default-icon-item icon-btn-item save-icon"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill not-saved-icon"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="none" fill-rule="evenodd" stroke="#AAA" d="M12.285 15.064l-.82-5.021 3.498-3.584-4.83-.738L8 1.177 5.867 5.72l-4.83.738 3.497 3.584-.819 5.021L8 12.696l4.285 2.368z"></path></g></svg></div> <div class="is-default-icon-item btn-title">Save</div></a></span></div>
+</div> </span> </div>
+</div>
+`;
+
+exports[`SaveCandidateButtonContainer candidate is saved by current user the save button should be enabled 1`] = `
+<div class="candidate-header-secondary-flex-item">
+  <div class="v-popover"><span aria-describedby="popover_" tabindex="-1" class="trigger" style="display: inline-block;"><div><div id="saveCandidateBtn" class="flex-bar-btn-item save"><span data-label="Save this candidate" class="is-primary is-top is-medium"><a class="button is-default-icon is-default-icon-row"><div class="is-default-icon-item icon-btn-item save-icon"><svg data-v-7ef413f4="" version="1.1" viewBox="0 0 16 16" class="svg-icon svg-fill saved-icon"><g xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" d="M8 13.267L3.056 16 4 10.211l-4-4.1 5.528-.844L8 0l2.472 5.267L16 6.11l-4 4.1.944 5.789z"></path></g></svg></div> <div class="is-default-icon-item btn-title">Saved</div></a></span></div>
+</div> </span> </div>
+</div>
+`;

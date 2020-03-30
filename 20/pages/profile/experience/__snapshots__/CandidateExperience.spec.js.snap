@@ -1,0 +1,499 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CandidateExperience error state should show errors 1`] = `
+<div class="max-width-container">
+  <div class="errors-box">
+    <div>
+      <div>
+        <article class="message is-danger" name="fade">
+          <!---->
+          <section class="message-body">
+            <div class="media">
+              <!---->
+              <div class="media-content">
+                No candidate
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CandidateExperience loading state should show loading animation 1`] = `
+<div class="max-width-container">
+  <div class="columns experience-candidate-flex-row">
+    <div class="column is-narrow candidate-detail-page"><svg viewBox="0 0 866 1349" preserveAspectRatio="xMidYMid meet" class="content-loader">
+        <rect clip-path="url(#clipPath-4)" x="0" y="0" width="866" height="1349" style="fill: url(#gradient-4);"></rect>
+        <defs>
+          <clipPath id="clipPath-4">
+            <rect width="124" height="22" x="1" y="160" rx="11"></rect>
+            <rect width="198" height="22" x="1" y="443" rx="11"></rect>
+            <rect width="250" height="22" x="1" rx="11"></rect>
+            <rect width="720" height="10" x="1" y="218" rx="5"></rect>
+            <rect width="204" height="10" x="1" y="59" rx="5"></rect>
+            <rect width="720" height="10" x="1" y="244" rx="5"></rect>
+            <rect width="186" height="10" x="1" y="85" rx="5"></rect>
+            <rect width="861" height="4" x="1" y="527.5" rx="2"></rect>
+            <rect width="720" height="10" x="1" y="270" rx="5"></rect>
+            <rect width="720" height="10" x="1" y="318" rx="5"></rect>
+            <rect width="228" height="10" x="1" y="370" rx="5"></rect>
+            <rect width="720" height="10" x="1" y="344" rx="5"></rect>
+            <rect width="127" height="10" x="1" y="673" rx="5"></rect>
+            <rect width="108" height="10" x="20" y="691" rx="5"></rect>
+            <rect width="240" height="10" x="182" y="673" rx="5"></rect>
+            <rect width="260" height="10" x="182" y="699" rx="5"></rect>
+            <rect width="110" height="10" x="182" y="725" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="757" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="804" rx="5"></rect>
+            <circle cx="186" cy="762" r="5"></circle>
+            <circle cx="155" cy="679" r="8"></circle>
+            <circle cx="8" cy="529" r="8"></circle>
+            <circle cx="166" cy="529" r="8"></circle>
+            <circle cx="432" cy="529" r="8"></circle>
+            <circle cx="704" cy="529" r="8"></circle>
+            <circle cx="858" cy="529" r="8"></circle>
+            <circle cx="186" cy="809" r="5"></circle>
+            <circle cx="186" cy="786" r="5"></circle>
+            <circle cx="186" cy="833" r="5"></circle>
+            <rect width="450" height="10" x="201" y="781" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="828" rx="5"></rect>
+            <rect width="127" height="10" x="1" y="927" rx="5"></rect>
+            <rect width="108" height="10" x="20" y="945" rx="5"></rect>
+            <rect width="240" height="10" x="182" y="927" rx="5"></rect>
+            <rect width="260" height="10" x="182" y="953" rx="5"></rect>
+            <rect width="110" height="10" x="182" y="979" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1011" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1058" rx="5"></rect>
+            <circle cx="186" cy="1016" r="5"></circle>
+            <circle cx="155" cy="933" r="8"></circle>
+            <circle cx="186" cy="1063" r="5"></circle>
+            <circle cx="186" cy="1040" r="5"></circle>
+            <circle cx="186" cy="1087" r="5"></circle>
+            <rect width="450" height="10" x="201" y="1035" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1082" rx="5"></rect>
+            <rect width="127" height="10" x="1" y="1184" rx="5"></rect>
+            <rect width="108" height="10" x="20" y="1202" rx="5"></rect>
+            <rect width="240" height="10" x="182" y="1184" rx="5"></rect>
+            <rect width="260" height="10" x="182" y="1210" rx="5"></rect>
+            <rect width="110" height="10" x="182" y="1236" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1268" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1315" rx="5"></rect>
+            <circle cx="186" cy="1273" r="5"></circle>
+            <circle cx="155" cy="1190" r="8"></circle>
+            <circle cx="186" cy="1320" r="5"></circle>
+            <circle cx="186" cy="1297" r="5"></circle>
+            <circle cx="186" cy="1344" r="5"></circle>
+            <rect width="450" height="10" x="201" y="1292" rx="5"></rect>
+            <rect width="450" height="10" x="201" y="1339" rx="5"></rect>
+          </clipPath>
+          <linearGradient id="gradient-4">
+            <stop offset="0%" stop-color="#ddd">
+              <animate attributeName="offset" values="-2; 1" dur="2s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="50%" stop-color="#f5f5f5">
+              <animate attributeName="offset" values="-1.5; 1.5" dur="2s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#ddd">
+              <animate attributeName="offset" values="-1; 2" dur="2s" repeatCount="indefinite"></animate>
+            </stop>
+          </linearGradient>
+        </defs>
+      </svg></div>
+    <div class="column is-narrow candidate-detail-page">
+      <div class="secondary-box">
+        <div class="aside-container"><svg viewBox="0 0 193 231" preserveAspectRatio="xMidYMid meet" class="content-loader">
+            <rect clip-path="url(#clipPath-7)" x="0" y="0" width="193" height="231" style="fill: url(#gradient-7);"></rect>
+            <defs>
+              <clipPath id="clipPath-7">
+                <rect width="124" height="22" fill="#DDD" rx="11"></rect>
+                <rect width="83" height="10" y="221" fill="#DDD" rx="5"></rect>
+                <rect width="160" height="10" x="33" y="182" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="187" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="150" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="155" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="118" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="123" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="85" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="90" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="51" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="56" r="8" fill="#DDD"></circle>
+              </clipPath>
+              <linearGradient id="gradient-7">
+                <stop offset="0%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-2; 1" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="50%" stop-color="#f5f5f5">
+                  <animate attributeName="offset" values="-1.5; 1.5" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="100%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-1; 2" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+              </linearGradient>
+            </defs>
+          </svg></div>
+        <!---->
+        <div class="aside-container"><svg viewBox="0 0 193 231" preserveAspectRatio="xMidYMid meet" class="content-loader">
+            <rect clip-path="url(#clipPath-10)" x="0" y="0" width="193" height="231" style="fill: url(#gradient-10);"></rect>
+            <defs>
+              <clipPath id="clipPath-10">
+                <rect width="124" height="22" fill="#DDD" rx="11"></rect>
+                <rect width="83" height="10" y="221" fill="#DDD" rx="5"></rect>
+                <rect width="160" height="10" x="33" y="182" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="187" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="150" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="155" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="118" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="123" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="85" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="90" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="51" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="56" r="8" fill="#DDD"></circle>
+              </clipPath>
+              <linearGradient id="gradient-10">
+                <stop offset="0%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-2; 1" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="50%" stop-color="#f5f5f5">
+                  <animate attributeName="offset" values="-1.5; 1.5" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="100%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-1; 2" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+              </linearGradient>
+            </defs>
+          </svg></div>
+        <div class="aside-container"><svg viewBox="0 0 193 231" preserveAspectRatio="xMidYMid meet" class="content-loader">
+            <rect clip-path="url(#clipPath-13)" x="0" y="0" width="193" height="231" style="fill: url(#gradient-13);"></rect>
+            <defs>
+              <clipPath id="clipPath-13">
+                <rect width="124" height="22" fill="#DDD" rx="11"></rect>
+                <rect width="83" height="10" y="221" fill="#DDD" rx="5"></rect>
+                <rect width="160" height="10" x="33" y="182" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="187" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="150" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="155" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="118" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="123" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="85" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="90" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="51" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="56" r="8" fill="#DDD"></circle>
+              </clipPath>
+              <linearGradient id="gradient-13">
+                <stop offset="0%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-2; 1" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="50%" stop-color="#f5f5f5">
+                  <animate attributeName="offset" values="-1.5; 1.5" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="100%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-1; 2" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+              </linearGradient>
+            </defs>
+          </svg></div>
+        <div class="aside-container"><svg viewBox="0 0 193 231" preserveAspectRatio="xMidYMid meet" class="content-loader">
+            <rect clip-path="url(#clipPath-16)" x="0" y="0" width="193" height="231" style="fill: url(#gradient-16);"></rect>
+            <defs>
+              <clipPath id="clipPath-16">
+                <rect width="124" height="22" fill="#DDD" rx="11"></rect>
+                <rect width="83" height="10" y="221" fill="#DDD" rx="5"></rect>
+                <rect width="160" height="10" x="33" y="182" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="187" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="150" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="155" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="118" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="123" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="85" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="90" r="8" fill="#DDD"></circle>
+                <rect width="160" height="10" x="33" y="51" fill="#DDD" rx="5"></rect>
+                <circle cx="8" cy="56" r="8" fill="#DDD"></circle>
+              </clipPath>
+              <linearGradient id="gradient-16">
+                <stop offset="0%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-2; 1" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="50%" stop-color="#f5f5f5">
+                  <animate attributeName="offset" values="-1.5; 1.5" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+                <stop offset="100%" stop-color="#ddd">
+                  <animate attributeName="offset" values="-1; 2" dur="2s" repeatCount="indefinite"></animate>
+                </stop>
+              </linearGradient>
+            </defs>
+          </svg></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CandidateExperience locked state should show locked image with info 1`] = `
+<div class="max-width-container">
+  <div class="columns experience-candidate-flex-row">
+    <div class="column is-narrow candidate-detail-page">
+      <div class="experience-locked">
+        <div class="warning-text paragraph-l" data-msgid="As soon as we approve your account you’ll have access to the full candidate profile." data-current-language="en_US">As soon as we approve your account you’ll have access to the full candidate profile.</div> <svg viewBox="0 0 866 1349" preserveAspectRatio="xMidYMid meet" class="content-loader">
+          <rect clip-path="url(#clipPath-25)" x="0" y="0" width="866" height="1349" style="fill: url(#gradient-25);"></rect>
+          <defs>
+            <clipPath id="clipPath-25">
+              <rect width="124" height="22" x="1" y="160" rx="11"></rect>
+              <rect width="198" height="22" x="1" y="443" rx="11"></rect>
+              <rect width="250" height="22" x="1" rx="11"></rect>
+              <rect width="720" height="10" x="1" y="218" rx="5"></rect>
+              <rect width="204" height="10" x="1" y="59" rx="5"></rect>
+              <rect width="720" height="10" x="1" y="244" rx="5"></rect>
+              <rect width="186" height="10" x="1" y="85" rx="5"></rect>
+              <rect width="861" height="4" x="1" y="527.5" rx="2"></rect>
+              <rect width="720" height="10" x="1" y="270" rx="5"></rect>
+              <rect width="720" height="10" x="1" y="318" rx="5"></rect>
+              <rect width="228" height="10" x="1" y="370" rx="5"></rect>
+              <rect width="720" height="10" x="1" y="344" rx="5"></rect>
+              <rect width="127" height="10" x="1" y="673" rx="5"></rect>
+              <rect width="108" height="10" x="20" y="691" rx="5"></rect>
+              <rect width="240" height="10" x="182" y="673" rx="5"></rect>
+              <rect width="260" height="10" x="182" y="699" rx="5"></rect>
+              <rect width="110" height="10" x="182" y="725" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="757" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="804" rx="5"></rect>
+              <circle cx="186" cy="762" r="5"></circle>
+              <circle cx="155" cy="679" r="8"></circle>
+              <circle cx="8" cy="529" r="8"></circle>
+              <circle cx="166" cy="529" r="8"></circle>
+              <circle cx="432" cy="529" r="8"></circle>
+              <circle cx="704" cy="529" r="8"></circle>
+              <circle cx="858" cy="529" r="8"></circle>
+              <circle cx="186" cy="809" r="5"></circle>
+              <circle cx="186" cy="786" r="5"></circle>
+              <circle cx="186" cy="833" r="5"></circle>
+              <rect width="450" height="10" x="201" y="781" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="828" rx="5"></rect>
+              <rect width="127" height="10" x="1" y="927" rx="5"></rect>
+              <rect width="108" height="10" x="20" y="945" rx="5"></rect>
+              <rect width="240" height="10" x="182" y="927" rx="5"></rect>
+              <rect width="260" height="10" x="182" y="953" rx="5"></rect>
+              <rect width="110" height="10" x="182" y="979" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1011" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1058" rx="5"></rect>
+              <circle cx="186" cy="1016" r="5"></circle>
+              <circle cx="155" cy="933" r="8"></circle>
+              <circle cx="186" cy="1063" r="5"></circle>
+              <circle cx="186" cy="1040" r="5"></circle>
+              <circle cx="186" cy="1087" r="5"></circle>
+              <rect width="450" height="10" x="201" y="1035" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1082" rx="5"></rect>
+              <rect width="127" height="10" x="1" y="1184" rx="5"></rect>
+              <rect width="108" height="10" x="20" y="1202" rx="5"></rect>
+              <rect width="240" height="10" x="182" y="1184" rx="5"></rect>
+              <rect width="260" height="10" x="182" y="1210" rx="5"></rect>
+              <rect width="110" height="10" x="182" y="1236" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1268" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1315" rx="5"></rect>
+              <circle cx="186" cy="1273" r="5"></circle>
+              <circle cx="155" cy="1190" r="8"></circle>
+              <circle cx="186" cy="1320" r="5"></circle>
+              <circle cx="186" cy="1297" r="5"></circle>
+              <circle cx="186" cy="1344" r="5"></circle>
+              <rect width="450" height="10" x="201" y="1292" rx="5"></rect>
+              <rect width="450" height="10" x="201" y="1339" rx="5"></rect>
+            </clipPath>
+            <linearGradient id="gradient-25">
+              <stop offset="0%" stop-color="#ddd">
+                <animate attributeName="offset" values="-2; 1" dur="0s" repeatCount="indefinite"></animate>
+              </stop>
+              <stop offset="50%" stop-color="#f5f5f5">
+                <animate attributeName="offset" values="-1.5; 1.5" dur="0s" repeatCount="indefinite"></animate>
+              </stop>
+              <stop offset="100%" stop-color="#ddd">
+                <animate attributeName="offset" values="-1; 2" dur="0s" repeatCount="indefinite"></animate>
+              </stop>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="rotated" data-msgid="LOCKED" data-current-language="en_US">LOCKED</div>
+      </div>
+    </div>
+    <div class="column is-narrow candidate-detail-page">
+      <div class="secondary-box">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CandidateExperience normal state should show breadcrumbs 1`] = `
+<div class="max-width-container">
+  <div class="columns experience-candidate-flex-row">
+    <div class="column is-narrow candidate-detail-page">
+      <div class="primary-box"><a class="primary-link paragraph-s breadcrumbs"><span class="arrow">← </span><span>Go back to projects</span></a>
+        <section>
+          <!---->
+        </section>
+        <div>
+          <section>
+            <h3 class="heading-3 summary-info-header" data-msgid="Summary" data-current-language="en_US">Summary</h3>
+            <section>
+              <div class="summary-section">
+                <p class="paragraph-m">
+                  <div>Cool candidate</div>
+                </p>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div class="experience-wrapper">
+              <h3 id="firstCandidate" class="heading-3 experience-header">Experience</h3>
+              <!---->
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="column is-narrow candidate-detail-page">
+      <div class="secondary-box">
+        <!---->
+        <!---->
+        <div class="aside-container">
+          <h3 class="heading-3">Motivators</h3>
+          <div class="aside-list">
+            <div>
+              <div class="motivators-list">
+                <div class="motivators-item">
+                  <div class="motivator-count">
+                    <p class="light-text">1</p>
+                  </div>
+                  <div class="motivator-title">
+                    <p class="paragraph-m">low salary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside-container">
+          <h3 class="heading-3">Skills</h3>
+          <div class="aside-list">
+            <div>
+              <div class="items-list is-collapsed">
+                <div class="items-item">
+                  <div class="item-title is-capitalized">manager</div> <progress max="100" class="progress">
+                    NaN%
+                  </progress>
+                </div>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+        <div class="aside-container">
+          <h3 class="heading-3">Languages</h3>
+          <div class="aside-list">
+            <div>
+              <div class="items-list is-collapsed">
+                <div class="items-item">
+                  <div class="item-title is-capitalized">english</div>
+                  <!---->
+                </div>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CandidateExperience normal state should show candidate summary and side bars 1`] = `
+<div class="max-width-container">
+  <div class="columns experience-candidate-flex-row">
+    <div class="column is-narrow candidate-detail-page">
+      <div class="primary-box">
+        <!---->
+        <section>
+          <!---->
+        </section>
+        <div>
+          <section>
+            <h3 class="heading-3 summary-info-header" data-msgid="Summary" data-current-language="en_US">Summary</h3>
+            <section>
+              <div class="summary-section">
+                <p class="paragraph-m">
+                  <div>Cool candidate</div>
+                </p>
+              </div>
+            </section>
+          </section>
+          <section>
+            <div class="experience-wrapper">
+              <h3 id="firstCandidate" class="heading-3 experience-header">Experience</h3>
+              <!---->
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="column is-narrow candidate-detail-page">
+      <div class="secondary-box">
+        <!---->
+        <!---->
+        <div class="aside-container">
+          <h3 class="heading-3">Motivators</h3>
+          <div class="aside-list">
+            <div>
+              <div class="motivators-list">
+                <div class="motivators-item">
+                  <div class="motivator-count">
+                    <p class="light-text">1</p>
+                  </div>
+                  <div class="motivator-title">
+                    <p class="paragraph-m">low salary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside-container">
+          <h3 class="heading-3">Skills</h3>
+          <div class="aside-list">
+            <div>
+              <div class="items-list is-collapsed">
+                <div class="items-item">
+                  <div class="item-title is-capitalized">manager</div> <progress max="100" class="progress">
+                    NaN%
+                  </progress>
+                </div>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+        <div class="aside-container">
+          <h3 class="heading-3">Languages</h3>
+          <div class="aside-list">
+            <div>
+              <div class="items-list is-collapsed">
+                <div class="items-item">
+                  <div class="item-title is-capitalized">english</div>
+                  <!---->
+                </div>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
